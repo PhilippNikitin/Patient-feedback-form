@@ -1,0 +1,81 @@
+body{
+  background-color:#b8feff;
+}
+
+textarea{
+  display:block;
+  max-width:50%;
+  border-radius: 0.25em;
+  padding: 0.4em;
+  }
+
+select{
+  border-radius: 0.25em;
+  padding: 0.4em;
+}
+
+input{
+  border-radius: 0.25em;
+  padding: 0.4em;
+}
+.mark{
+  color:#ed8822;
+}
+
+
+#title{
+  width: 11em;
+  margin: 0 auto;
+  font-family: Sans-serif;
+  position: relative;
+  top: 0.3em;
+}
+
+
+#survey-form{
+  width:55%;
+  margin: 2em auto;
+  background-color: #fff;
+  padding: 1.5em;
+  border-radius:0.4em;
+  font-family: Sans-serif;
+}
+
+#name-label, #email-label, #number-label, #dropdown-list{
+  display:block;
+  margin: 0.4em 0em;
+}
+
+#name, #email, #number, #dropdown, textarea {
+  width: 97%;
+}
+
+#submit{
+  background-color: #ed8822;
+  color: #fff;
+  border-radius: 0.4em;
+  display: block;
+  padding:0.5em 1.5em;
+  margin: 0.5em auto;
+  cursor:pointer;
+}
+
+#submit:hover{
+  background-color: #fff;
+  color: #ed8822;
+  }
+
+#description, #dropdown-list{
+  text-align: center;
+}
+
+.clarification{
+  border-top: 1px solid #b8feff;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.clarification-1{
+  border-top: 1px solid #b8feff;
+  padding-top: 1em;
+  }
